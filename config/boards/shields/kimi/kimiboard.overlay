@@ -54,8 +54,6 @@
 };
 
 #include <input/processors.dtsi>
-};
-};
 
 / {
   trackball_listener {
