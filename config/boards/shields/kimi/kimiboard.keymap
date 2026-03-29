@@ -5,11 +5,6 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <behaviors/rgbled_widget.dtsi>
 #include <input/processors.dtsi>
-#include <dt-bindings/zmk/input_transform.h>
-
-&trackball_listener {
-    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT)>;
-};
 
 &trackball {
     scroll-layers = <2>;
